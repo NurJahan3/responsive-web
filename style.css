@@ -277,7 +277,7 @@ hr {
     height: 5%;
   }
   .view-all-button{
-    display: none;
+    display: flex;
     text-align: center;
     margin-left: 90%;
 }
