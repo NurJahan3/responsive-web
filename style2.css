@@ -190,29 +190,22 @@ hr{
 
 /*-----------Media Queries------------*/
 
-@media (max-width: 688px) {
-    .container{
-        width: 100%;
+@media (max-width: 1200px) {
+    .header-content{
+        background-color: #f31d1d;
     }
-    .container{
-        grid-template-columns: repeat(1 fr);
-    } 
-     /*.container-blog{
-        flex-direction: column;
-    }
+     
 }
 
 /*-----------Tablet Devices------------*/
-@media (max-width: 992px) {
-    .container{
-        width: 100%;
+@media only screen and(max-width: 650px) {
+    .header-content{
+        background-color: #f31d1d;
     }
-    .players, .blogs, .courses{
-        background-color: aqua;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .player, .blog{
-        flex-direction: column;
-    }
+}
 
+@media (min-width: px){
+    .header-content{
+        background-color: aqua;
+    }
 }
