@@ -154,6 +154,20 @@ main {
   margin: 20px;
   font-size: 0.8rem;
 }
+.view-all-button{
+    display: none;
+    text-align: center;
+    margin-left: 90%;
+}
+.button-view{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(100, 95, 95);
+    background-color: #f31d1d;
+    color: #fff;
+    font-weight: 700;
+}
 /******************Footer***************/
 footer {
   background-color: #1f1e1e;
@@ -262,4 +276,9 @@ hr {
     width: 90%;
     height: 5%;
   }
+  .view-all-button{
+    display: none;
+    text-align: center;
+    margin-left: 90%;
+}
 }
